@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\Desktop\\SmtWallet\\SmtWallet.Console\\SmtWallet.Console.csproj": {}
+    "C:\\Users\\HP\\Desktop\\SmtWallet\\SmtWallet.Console\\SmtWallet.Console.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\Desktop\\SmtWallet\\SmtWallet.Console\\SmtWallet.Console.csproj": {
+    "C:\\Users\\HP\\Desktop\\SmtWallet\\SmtWallet.Console\\SmtWallet.Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\SmtWallet\\SmtWallet.Console\\SmtWallet.Console.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\SmtWallet\\SmtWallet.Console\\SmtWallet.Console.csproj",
         "projectName": "SmtWallet.Console",
-        "projectPath": "C:\\Users\\Lenovo\\Desktop\\SmtWallet\\SmtWallet.Console\\SmtWallet.Console.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Desktop\\SmtWallet\\SmtWallet.Console\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Desktop\\SmtWallet\\SmtWallet.Console\\SmtWallet.Console.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\SmtWallet\\SmtWallet.Console\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -19,7 +19,7 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
         }
       }
     }

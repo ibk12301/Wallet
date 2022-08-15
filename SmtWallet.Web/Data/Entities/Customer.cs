@@ -1,6 +1,6 @@
 ﻿namespace SmtWallet.Web.Data.Entities
 {
-    public class Client: BaseEntity<Guid>
+    public class Customer: BaseEntity<Guid>
     {
         public string FirstName { get; set; }
 

@@ -12,8 +12,8 @@ namespace SmtWallet.Web.Data
 
         }
 
-        public DbSet<Nationality> Nationalities { get; set; }
-        public DbSet<Client> Clients { get; set; }
+        public DbSet<Country> Nationalities { get; set; }
+        public DbSet<Customer> Clients { get; set; }
         public DbSet<Language> Languages { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

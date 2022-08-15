@@ -2,7 +2,7 @@
 
 namespace SmtWallet.Web.Data.Entities
 {
-    public class Nationality: BaseEntity<Guid>
+    public class Country: BaseEntity<Guid>
     {
         [Required]
         [MaxLength(200)]

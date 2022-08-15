@@ -9,9 +9,9 @@ namespace SmtWallet.Web.Controllers
     public class ClientController: Controller
     {
         //private readonly ApplicationDbContext _dbContext;
-        private readonly IRepository<Client, Guid> _clientRepository;
+        private readonly IRepository<Customer, Guid> _clientRepository;
 
-        public ClientController(IRepository<Client, Guid> clientRepository)
+        public ClientController(IRepository<Customer, Guid> clientRepository)
         //public ClientController(ApplicationDbContext dbContext)
         {
             //_dbContext = dbContext;
@@ -26,12 +26,12 @@ namespace SmtWallet.Web.Controllers
 
         public IActionResult Create()
         {
-            var model = new Client { BirthDate = DateTime.Now, Active = true}; 
+            var model = new Customer { BirthDate = DateTime.Now, Active = true}; 
             return View(model);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(Client model)
+        public async Task<IActionResult> Create(Customer model)
         {
             if (ModelState.IsValid)
             {
@@ -53,7 +53,7 @@ namespace SmtWallet.Web.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit(Guid id, Client model)
+        public async Task<IActionResult> Edit(Guid id, Customer model)
         {
             if (ModelState.IsValid)
             {

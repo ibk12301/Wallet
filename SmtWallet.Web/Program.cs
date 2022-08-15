@@ -10,10 +10,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<ApplicationDbContext>(c =>
-                c.UseSqlServer("Server=(localdb)\\mssqllocaldb; Database=SmtWalletDb; Trusted_Connection=True;"));
+                c.UseSqlServer("Server=JC_PHARGUZIN; Database=SmtWalletDb; Trusted_Connection=True;"));
 
-builder.Services.AddScoped<IRepository<Client, Guid>, ClientRepository>();
-builder.Services.AddScoped<IRepository<Nationality, Guid>, NationalityRepository>();
+builder.Services.AddScoped<IRepository<Customer, Guid>, ClientRepository>();
+builder.Services.AddScoped<IRepository<Country, Guid>, NationalityRepository>();
 
 var app = builder.Build();
 

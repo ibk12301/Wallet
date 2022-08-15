@@ -5,7 +5,7 @@ using SmtWallet.Web.Data.Repositories.Interfaces;
 namespace SmtWallet.Web.Data.Repositories
 {
     //public class ClientRepository : IClientRepository
-    public class NationalityRepository : Repository<Nationality, Guid>
+    public class NationalityRepository : Repository<Country, Guid>
     {
         public NationalityRepository(ApplicationDbContext dbContext) : base(dbContext)
         {

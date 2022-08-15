@@ -10,27 +10,27 @@ namespace SmtWallet.Web.Data
             if (!context.Clients.Any())
             {
                 //2. create sample data
-                context.Clients.Add(new Client
+                context.Clients.Add(new Customer
                 {
-                    FirstName = "Temidayo",
-                    LastName =  "Akinrotimi",
+                    FirstName = "Ibukun Tunde",
+                    LastName = "Ogunbunmi",
                     BirthDate = DateTime.Now.AddYears(-20),
                     Gender = GenderEnum.Male,
-                    Address = "Lagos",
-                    PhoneNumber = "09076543232",
-                    Email = "akintemi@gmail.com",
+                    Address = "Ibadan",
+                    PhoneNumber = "08101654384",
+                    Email = "Pharguzin@gmail.com",
                     Active = true
                 });
 
-                context.Clients.Add(new Client
+                context.Clients.Add(new Customer
                 {
-                    FirstName = "Oluwaseun",
-                    LastName = "Rotimi",
+                    FirstName = "Adelakin",
+                    LastName = "Segun",
                     BirthDate = DateTime.Now.AddYears(-10),
                     Gender = GenderEnum.Female,
-                    Address = "Ibadan",
-                    PhoneNumber = "08134524565",
-                    Email = "seun2020@gmail.com",
+                    Address = "Lagos",
+                    PhoneNumber = "08134528765",
+                    Email = "segun@gmail.com",
                     Active = false
                 });
 
@@ -47,11 +47,11 @@ namespace SmtWallet.Web.Data
                 //    Isocode = "AFG",
                 //    Callcode = "93"
                 //});
-                context.Nationalities.AddRange (new List<Nationality>
+                context.Nationalities.AddRange (new List<Country>
                 {
-                    new Nationality {Name = "Afghanistan", Isocode = "AFG", Callcode = "93"},
-                    new Nationality {Name = "Albania", Isocode = "ALB", Callcode = "355"},
-                    new Nationality {Name = "Algeria", Isocode = "DZA", Callcode = "213"}
+                    new Country {Name = "Afghanistan", Isocode = "AFG", Callcode = "93"},
+                    new Country {Name = "Albania", Isocode = "ALB", Callcode = "355"},
+                    new Country {Name = "Algeria", Isocode = "DZA", Callcode = "213"}
                 });
                 await context.SaveChangesAsync();
             }
